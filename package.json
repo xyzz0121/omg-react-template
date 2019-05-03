@@ -1,0 +1,93 @@
+{
+  "name": "omg-react-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@babel/runtime": "^7.2.0",
+    "@types/react": "^16.8.8",
+    "@types/react-dom": "^16.8.3",
+    "@types/react-redux": "^7.0.5",
+    "@types/react-router-dom": "^4.3.1",
+    "@types/redux": "^3.6.0",
+    "axios": "^0.18.0",
+    "babel-preset-react": "^6.24.1",
+    "csstype": "^2.6.3",
+    "fastclick": "^1.0.6",
+    "jsonp": "^0.2.1",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-redux": "^6.0.1",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.1",
+    "vconsole": "^3.2.0",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.0",
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.2.1",
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/preset-react": "^7.0.0",
+    "@webpack-cli/init": "^0.1.2",
+    "autoprefixer": "^9.5.0",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-import": "^1.11.0",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "css-loader": "^2.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "node-sass": "^4.11.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-pxtorem": "^4.0.1",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "ts-import-plugin": "^1.5.5",
+    "tslint": "^5.14.0",
+    "tslint-react": "^4.0.0",
+    "typescript": "^3.3.4000",
+    "uglifyjs-webpack-plugin": "^2.0.1",
+    "url-loader": "^1.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "useBuiltIns": false
+        }
+      ],
+      "@babel/preset-react"
+    ],
+    "plugins": [
+      "@babel/plugin-transform-runtime"
+    ]
+  },
+  "browserslist": [
+    "defaults",
+    "not ie < 11",
+    "last 2 versions",
+    "> 1%",
+    "iOS 7",
+    "last 3 iOS versions"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "ISC"
+}

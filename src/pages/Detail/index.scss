@@ -1,0 +1,162 @@
+.detail{
+    &-h1{
+        height: 1PX;
+        background: #ECEEF0;
+        margin-bottom: 50px;
+    }
+    &-wrapper{
+        margin: 0 30px;
+    }
+    &-header{
+        font-family: PingFangSC-Semibold;
+        font-size: 52px;
+        color: #111111;
+        letter-spacing: 0;
+        line-height: 68px;
+        margin-top: 40px; 
+        width: 95%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    &-salary{
+        font-family: DINAlternate-Bold;
+        font-size: 48px;
+        color: #FF704F;
+        letter-spacing: 0;
+        margin-top: 10px;
+    }
+    &-data{
+        font-family: PingFangSC-Regular;
+        font-size: 28px;
+        color: #9FA4B0;
+        letter-spacing: 0;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        overflow: hidden;
+        // display: flex;
+        span{
+            margin-right: 90px;
+        }
+    }
+    &-info{
+        font-family: PingFangSC-Regular;
+        font-size: 30px;
+        color: #555555;
+        letter-spacing: 0;
+        margin-top: 45px;
+        margin-bottom: 90px;
+        div{
+            height: 65px;
+            line-height: 65px;
+        }
+    }
+    &-title{
+        font-family: PingFangSC-Medium;
+        font-size: 36px;
+        color: #111111;
+        letter-spacing: 0;
+    }
+    &-welfare{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 40px;
+        &-item{
+            width: 25%;
+            &-logo{
+                width: 50px;
+                height: 50px;
+                margin: 0 auto;
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+            .bc{
+                background-image: url(../../assets/images/bc.png);
+            }
+            .bz{
+                background-image: url(../../assets/images/bz.png);
+            }
+            .fanb{
+                background-image: url(../../assets/images/fanb.png);
+            }
+            .fb{
+                background-image: url(../../assets/images/fb.png);
+            }
+            .hb{
+                background-image: url(../../assets/images/hb.png);
+            }
+            .jbbz{
+                background-image: url(../../assets/images/jbbz.png);
+            }
+            .jtbz{
+                background-image: url(../../assets/images/jtbz.png);
+            }
+            .ndsx{
+                background-image: url(../../assets/images/ndsx.png);
+            }
+            .wxyj{
+                background-image: url(../../assets/images/wxyj.png);
+            }
+            .zmsx{
+                background-image: url(../../assets/images/zmsx.png);
+            }
+            &-text{
+                width: 100%;
+                text-align: center;
+                margin: 20px 0 30px 0;
+                font-family: PingFangSC-Regular;
+                font-size: 28px;
+                color: #555555;
+                letter-spacing: 0;
+            }
+        }
+        
+    }
+    &-address{
+        height: 170px;
+        line-height: 170px;
+        background-image: url(../../assets/images/address_bg.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-top: 30px;
+        text-align: center;
+        margin-bottom: 50px;
+        &-icon{
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            background-image: url(../../assets/images/address.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: relative;
+            top: -70px;
+            margin-right: 5px;
+        }
+        &-content{
+            max-width: 70%;
+            display: inline-block;
+            overflow:hidden;
+            white-space:nowrap;
+            text-overflow:ellipsis;
+        }
+        &-arrow{
+            display: inline-block;
+            width: 25px;
+            height: 25px;
+            background-image: url(../../assets/images/arrow_left.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: relative;
+            top: -70px;
+            margin-left: 30px;
+        }
+    }
+    &-description{
+        margin-top: 30px;
+        font-family: PingFangSC-Regular;
+        font-size: 28px;
+        color: #555555;
+        letter-spacing: 0;
+        line-height: 44px;
+    }
+}

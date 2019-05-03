@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "noImplicitAny": false,
+        "module": "ESNext",
+        "moduleResolution": "node",
+        "target": "es6",
+        "jsx": "react",
+        "allowSyntheticDefaultImports": true, //antd必备 不然用不了
+    },
+    "include": [
+        "./src/**/*"
+    ]
+}
