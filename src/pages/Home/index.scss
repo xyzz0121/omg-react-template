@@ -1,0 +1,10 @@
+.home{
+    &-header{
+        height: 200px;
+        width: 100%;
+        background-image: url(../../assets/images/omg.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center;
+    }
+}

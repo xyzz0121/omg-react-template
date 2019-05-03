@@ -3,10 +3,10 @@
  * zhouyang20
  * 2019.03.28
  */
-import Login from './Login';
+import Home from './Home';
 import Detail from "./Detail";
 
 export {
-    Login,
+    Home,
     Detail
 }

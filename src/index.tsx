@@ -9,18 +9,29 @@ import * as ReactDOM from 'react-dom';
 import store from './store';
 import { Provider } from "react-redux";
 
+import { MyRouter } from "./routers";
+// import {  } from "./components";
+
 import FastClick from 'fastclick';
 FastClick.attach(document.body);
+
 
 //TODO：上线前干掉
 // import VConsole from 'vconsole/dist/vconsole.min.js' //import vconsole
 // const vConsole = new VConsole(); 
 
-import './assets/style/common.scss';
+import './assets/style/reset.scss';
 
-const routDom =   {{#if need}} <Provider store={store}>哈哈</Provider> {{else}} <p>is not email</p> {{/if}}
+
+
+// const App =   
 
 
 ReactDOM.render(<Provider store={store}>
-    哈哈
+    {/* {{#if need}}
+        <MyRouter />
+    {{ else}}
+        <p>is not email</p>
+    {{/if}} */}
+    <MyRouter></MyRouter>
 </Provider>, document.getElementById("app"));
