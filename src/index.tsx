@@ -18,6 +18,8 @@ FastClick.attach(document.body);
 
 import './assets/style/common.scss';
 
+const routDom =   {{#if need}} <Provider store={store}>哈哈</Provider> {{else}} <p>is not email</p> {{/if}}
+
 
 ReactDOM.render(<Provider store={store}>
     哈哈
