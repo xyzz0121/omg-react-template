@@ -1,10 +1,9 @@
 /**
- * Login类型声明文件
+ * Home类型声明文件
  * author
  * time
  */
 
-export interface LoginState {
-    isSelectShow: boolean,
-    btnShow: boolean
+export interface HomeState {
+    currNum: number
 }
