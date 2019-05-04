@@ -14,6 +14,9 @@ const publicPath = '/';
 //Uglify原意变丑 压缩js
 const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 
+
+const pxToRemConfig = pxtorem({ rootValue: 75, propWhiteList: [] });
+
 module.exports = {
 	devServer: {
 		contentBase: path.resolve(__dirname, 'build'),//开发服务运行时的文件根目录
@@ -53,7 +56,7 @@ module.exports = {
 								autoprefixer({
 									browsers: ['last 2 versions', 'Firefox ESR', '> 1%', 'ie >= 8', 'iOS >= 8', 'Android >= 4'],
 								}),
-								{{#if isInMobile}} pxtorem({ rootValue: 75, propWhiteList: [] }) {{/if}
+								{{#if isInMobile}} pxToRemConfig {{/if}
 							],
 						}
 					},
