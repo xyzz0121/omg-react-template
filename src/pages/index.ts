@@ -6,12 +6,12 @@
 import Home from './Home';
 {{#if isNeedRouter}}
 import Detail from "./Detail";
-{{ else}}
+{{/if}}
 
 
 export {
     Home,
     {{#if isNeedRouter}}
     Detail
-    {{ else}}
+    {{/if}}
 }
