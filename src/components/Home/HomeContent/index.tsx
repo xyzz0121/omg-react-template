@@ -21,9 +21,9 @@ class HomeContent extends React.Component<HomeContentProps,any> {
     const { currNum } = this.props;
     return (
       <div className="homeContent">
-        <div className="homeContent-number">点了{currNum}次了</div>
+        <div className="homeContent-number">click {currNum} times!</div>
         {{#if isNeedRouter}} 
-          <Link to={`/detail/${currNum}`}>跳转详情页</Link>
+          <Link to={`/detail/${currNum}`}>jump detail!</Link>
         {{/if}}
       </div>
     )
