@@ -9,7 +9,8 @@ import "./index.scss";
 
 
 export default class Home extends React.Component<any, HomeState> {
-	{{#if !isNeedRedux}}
+	{{#if isNeedRedux}}
+	{{else}}
 	state = {
 		currNum: 0
 	}
