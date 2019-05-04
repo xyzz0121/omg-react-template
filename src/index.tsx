@@ -17,11 +17,11 @@ import { Home } from "./pages";
 import FastClick from 'fastclick';
 FastClick.attach(document.body);
 
-{{#if isInMobile}} 
-//TODO：上线前干掉
-import VConsole from 'vconsole/dist/vconsole.min.js' //import vconsole
-const vConsole = new VConsole(); 
-{{/if}
+// {{#if isInMobile}} 
+// //TODO：上线前干掉
+// import VConsole from 'vconsole/dist/vconsole.min.js' //import vconsole
+// const vConsole = new VConsole(); 
+// {{/if}
 import './assets/style/reset.scss';
 
 
