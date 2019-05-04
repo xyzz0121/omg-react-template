@@ -13,9 +13,11 @@ import { MyRouter } from "./routers";
 {{ else}}
 import { Home } from "./pages";
 {{/if}}
-
+{{#if isInMobile}} 
 import FastClick from 'fastclick';
 FastClick.attach(document.body);
+{{/if}}
+
 
 import './assets/style/reset.scss';
 
