@@ -7,8 +7,12 @@
     "@babel/runtime": "^7.2.0",
     "@types/react": "^16.8.8",
     "@types/react-dom": "^16.8.3",
+    {{#if isNeedRedux}}
     "@types/react-redux": "^7.0.5",
     "@types/redux": "^3.6.0",
+    "react-redux": "^6.0.1",
+    "redux": "^4.0.1",
+    {{/if}}
     "axios": "^0.18.0",
     "babel-preset-react": "^6.24.1",
     "csstype": "^2.6.3",
@@ -16,12 +20,10 @@
     "jsonp": "^0.2.1",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
-    "react-redux": "^6.0.1",
     {{#if isNeedRouter}} 
     "react-router-dom": "^4.3.1",
     "@types/react-router-dom": "^4.3.1",
     {{/if}}
-    "redux": "^4.0.1",
     "vconsole": "^3.2.0",
     "webpack": "^4.27.1",
     "webpack-cli": "^3.1.2"

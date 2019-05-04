@@ -5,7 +5,9 @@
  */
 import * as React from 'react';
 import "./index.scss";
+{{#if isNeedRedux}}
 import { connect } from 'react-redux';
+{{/if}}
 import { HomeContentProps } from "./index.d";
 {{#if isNeedRouter}} 
 import { Link } from 'react-router-dom';
@@ -27,10 +29,15 @@ class HomeContent extends React.Component<HomeContentProps,any> {
     )
   }
 }
+
+{{#if isNeedRedux}}
 const mapStateToProps = (store): any => {
 	return {
 		currNum: store.home.num
 	}
 }
-
 export default connect(mapStateToProps)(HomeContent)
+{{else}}
+export default HomeContent
+{{/if}}
+

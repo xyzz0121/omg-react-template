@@ -5,8 +5,10 @@
  */
 import * as React from 'react';
 import "./index.scss";
+{{#if isNeedRedux}}
 import { connect } from 'react-redux';
 import { addNumber } from '../../../store/actions/home';
+{{/if}}
 import { HomeBtnProps } from "./index.d";
 
 
@@ -24,6 +26,7 @@ class HomeBtn extends React.Component<HomeBtnProps, any> {
 		)
 	}
 }
+{{#if isNeedRedux}}
 //需要得到store中的什么数据
 const mapStateToProps = (store): any => {
 	return {
@@ -36,5 +39,8 @@ const mapDispatchToProps = (dispatch): any => {
 		AddNumber: (num: number) => dispatch(addNumber(num)),
 	}
 }
-
 export default connect(mapStateToProps, mapDispatchToProps)(HomeBtn)
+{{ else}}
+export default HomeBtn
+{{/if}}
+
