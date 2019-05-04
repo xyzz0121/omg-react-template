@@ -1,7 +1,7 @@
 /**
  * store center
- * zhouyang20
- * 2019.03.29
+ * author
+ * time
  */
 import { createStore, combineReducers } from 'redux';
 import { homeReducer } from "./reducers/home";

@@ -1,7 +1,7 @@
 /**
  * 入口文件
- * zhouyang20
- * 2019.03.27
+ * author
+ * time
  */
 import * as React from "react";
 import * as ReactDOM from 'react-dom';
@@ -10,7 +10,6 @@ import store from './store';
 import { Provider } from "react-redux";
 
 import { MyRouter } from "./routers";
-// import {  } from "./components";
 
 import FastClick from 'fastclick';
 FastClick.attach(document.body);
@@ -21,11 +20,6 @@ FastClick.attach(document.body);
 // const vConsole = new VConsole(); 
 
 import './assets/style/reset.scss';
-
-
-
-// const App =   
-
 
 ReactDOM.render(<Provider store={store}>
     {/* {{#if need}}

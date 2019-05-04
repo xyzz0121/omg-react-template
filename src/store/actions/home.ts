@@ -1,7 +1,7 @@
 /**
  * home page action 
- * zhouyang20
- * 2019.03.29
+ * author
+ * time
  */
 
 import { ADDNUMBER } from "../constants/home";

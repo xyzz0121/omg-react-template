@@ -1,7 +1,7 @@
 /**
  * home btn 组件
- * author name
- * update time
+ * author
+ * time
  */
 import * as React from 'react';
 import "./index.scss";
@@ -13,8 +13,8 @@ import { HomeBtnProps } from "./index.d";
 
 class HomeBtn extends React.Component<HomeBtnProps, any> {
 	handleBtn = () => {
-		const { AddNumber, home: { num } } = this.props;
-		AddNumber(num+1);
+		const { AddNumber, currNum } = this.props;
+		AddNumber(currNum+1);
 	}
 	render() {
 		return (
@@ -26,10 +26,9 @@ class HomeBtn extends React.Component<HomeBtnProps, any> {
 }
 //需要得到store中的什么数据
 const mapStateToProps = (store): any => {
-	return store
-	// return {
-	// 	currNum: store.home.num
-	// }
+	return {
+		currNum: store.home.num
+	}
 }
 //需要触发什么行为
 const mapDispatchToProps = (dispatch): any => {

@@ -1,7 +1,7 @@
 /**
  * home btn 组件
- * author name
- * update time
+ * author
+ * time
  */
 import * as React from 'react';
 import "./index.scss";

@@ -1,7 +1,7 @@
 /**
  * home page reducer
- * zhouyang20
- * 2019.03.29
+ * author
+ * time
  */
 import { AcitonType } from "../index.d";
 import { ADDNUMBER } from "../constants/home";

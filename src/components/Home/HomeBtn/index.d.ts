@@ -1,6 +1,6 @@
 interface HomeBtnProps {
     AddNumber?: any,
-    home?: any
+    currNum?: number
 }
 
 export {

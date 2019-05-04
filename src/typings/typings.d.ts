@@ -1,5 +1,7 @@
 /**
  * 全局声明、外部变量声明
+ * author
+ * time
  */
 
 declare module "*.json" {

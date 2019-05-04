@@ -77,7 +77,7 @@ module.exports = {
 		index: paths.appIndexJs
 	},
 	output: {
-		filename: 'm58jobexternal.js',
+		filename: '[name].js',
 		publicPath: publicPath,
 		path: path.resolve(__dirname, 'build')
 	},
@@ -108,9 +108,8 @@ module.exports = {
 			template: paths.appHtml,
 		}),
 		new MiniCssExtractPlugin({
-			filename: 'm58jobexternal.css'
+			filename: '[name].css'
 		}),
-		//开发时暂时不压缩 太慢了
-		// new optimizeCss(),
+		new optimizeCss(),
 	]
 };

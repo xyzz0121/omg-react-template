@@ -1,7 +1,7 @@
 /**
  * 页面中心
- * zhouyang20
- * 2019.03.28
+ * author
+ * time
  */
 import Home from './Home';
 import Detail from "./Detail";
