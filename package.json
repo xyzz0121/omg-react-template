@@ -1,26 +1,25 @@
 {
-  "name": "{{name}}",
+  "name": "name",
   "version": "1.0.0",
-  "description": "{{description}}",
+  "description": "description",
   "main": "index.js",
   "dependencies": {
     "@babel/runtime": "^7.2.0",
     "@types/react": "^16.8.8",
     "@types/react-dom": "^16.8.3",
     "@types/react-redux": "^7.0.5",
+    "@types/react-router-dom": "^4.3.1",
     "@types/redux": "^3.6.0",
     "axios": "^0.18.0",
     "babel-preset-react": "^6.24.1",
     "csstype": "^2.6.3",
     "fastclick": "^1.0.6",
     "jsonp": "^0.2.1",
+    "qs": "^6.7.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-redux": "^6.0.1",
-    {{#if isNeedRouter}} 
     "react-router-dom": "^4.3.1",
-    "@types/react-router-dom": "^4.3.1",
-    {{/if}}
     "redux": "^4.0.1",
     "vconsole": "^3.2.0",
     "webpack": "^4.27.1",
@@ -90,6 +89,6 @@
     "type": "git",
     "url": ""
   },
-  "author": "{{author}}",
+  "author": "author",
   "license": "ISC"
 }

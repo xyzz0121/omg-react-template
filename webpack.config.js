@@ -53,7 +53,7 @@ module.exports = {
 								autoprefixer({
 									browsers: ['last 2 versions', 'Firefox ESR', '> 1%', 'ie >= 8', 'iOS >= 8', 'Android >= 4'],
 								}),
-								{{#if isInMobile}} pxtorem({ rootValue: 75, propWhiteList: [] }) {{/if}}
+								pxtorem({ rootValue: 75, propWhiteList: [] })
 							],
 						}
 					},
