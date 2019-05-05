@@ -1,5 +1,5 @@
 /**
- * 页面中心
+ * pages center
  * author
  * time
  */

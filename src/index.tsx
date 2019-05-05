@@ -1,5 +1,5 @@
 /**
- * 入口文件
+ * entrance
  * author
  * time
  */

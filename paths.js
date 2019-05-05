@@ -34,10 +34,8 @@ module.exports = {
   dotenv: resolveApp('.env'),
   appBuild: resolveApp('build'),
   appPublic: resolveApp('public'),
-
-  appHtml: resolveApp('src/index.html'),  //html启动页
-  appIndexJs: resolveApp('src/index.tsx'),  //入口js文件
-  
+  appHtml: resolveApp('src/index.html'), 
+  appIndexJs: resolveApp('src/index.tsx'), 
   appPackageJson: resolveApp('package.json'),
   appSrc: resolveApp('src'),
   yarnLockFile: resolveApp('yarn.lock'),

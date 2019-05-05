@@ -1,5 +1,5 @@
 /**
- * 回到顶部组件(解决react-router4+版本切换路由，页面位置仍停留在上个页面位置的问题)
+ * toTop(fix:In react-router 4+, pages sctollTop not change when router changes )
  * author
  * time
  */

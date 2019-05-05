@@ -1,5 +1,5 @@
 /**
- * 全局声明、外部变量声明
+ * global declare, external declare
  * author
  * time
  */

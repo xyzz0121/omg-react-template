@@ -1,5 +1,5 @@
 /**
- * 组件中心
+ * components center
  * author
  * time
  */

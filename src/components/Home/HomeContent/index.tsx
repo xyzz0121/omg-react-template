@@ -1,5 +1,5 @@
 /**
- * home btn 组件
+ * home btn component
  * author
  * time
  */

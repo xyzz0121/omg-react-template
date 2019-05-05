@@ -1,4 +1,4 @@
-//action类型声明
+//action types
 export interface AcitonType {
     type: string,
     payload: any

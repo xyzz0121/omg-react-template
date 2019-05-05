@@ -1,2 +1,2 @@
-# omg-react
+# omg-react-template
 omg-react  template files

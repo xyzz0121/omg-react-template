@@ -1,5 +1,5 @@
 /**
- * 接口信息
+ * api infomation
  * author
  * time
  */

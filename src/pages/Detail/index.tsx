@@ -1,5 +1,5 @@
 /**
- * 详情页
+ * detail page
  * author
  * time
  */

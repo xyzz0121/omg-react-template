@@ -7,20 +7,18 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const theme = require('./package.json').theme;
 const optimizeCss = require('optimize-css-assets-webpack-plugin');
 const pxtorem = require('postcss-pxtorem');
-//ts antd 按需加载
+//ts antd import
 const tsImportPluginFactory = require('ts-import-plugin')
 const publicPath = '/';
-
-//Uglify原意变丑 压缩js
 const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 
 module.exports = {
 	devServer: {
-		contentBase: path.resolve(__dirname, 'build'),//开发服务运行时的文件根目录
-		host: '127.0.0.1',//主机地址
-		port: 3000,//端口号
+		contentBase: path.resolve(__dirname, 'build'),
+		host: '127.0.0.1',
+		port: 3000,
 		overlay: true,
-		compress: true,//开发服务器是否启动gzip等压缩
+		compress: true,
 		disableHostCheck: true,
 		historyApiFallback: true //suppot browserrouter
 	},
@@ -66,7 +64,7 @@ module.exports = {
 				use: [{
 					loader:'url-loader',
 					options:{
-						limit: 100000, //小于10kb的这样用
+						limit: 100000,
 						name: 'assets/images/[hash:8].[name].[ext]'
 					}
 				}]
@@ -82,12 +80,9 @@ module.exports = {
 		path: path.resolve(__dirname, 'build')
 	},
 	resolve: {
-		//配置自解析拓展名(import的时候不用写拓展名)
 		extensions: ['.jsx', '.js', '.json', '.ts', '.tsx']
 	},
-	//模式： TODO:了解
 	mode: 'development',
-	//最优组合 TODO:了解
 	optimization: {
 		splitChunks: {
 			cacheGroups: {

@@ -1,5 +1,7 @@
 /**
- * 首页
+ * home page
+ * author
+ * time
  */
 import * as React from 'react';
 import { HomeState } from "./index.d";
