@@ -1,2 +1,2 @@
-# omg-react-template
-omg-react  template files
+# omg-react
+Init react apps with typescript and no configuration.
